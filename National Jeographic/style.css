@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playball&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playball&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+p{
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* navbar cscs */
+.navbar-logo{
+    width: 160px;
+}
+
+.narvbar-border-bottom{
+    border-bottom: 1px solid white;
+}
+
+.right-bar-button{
+    background-color: transparent;
+    border: none;
+}
+
+.right-bar-button:hover{
+    background-color: black;
+}
+
+.right-bar-button-offcanvas{
+    text-decoration: none;
+    color: white;
+} 
+
+.fa-bars{
+    font-size: 30px;
+}
+
+/* Photo by vlane Gessele part here CSS here */
+
+.ice-pic img{
+    width: 2439px;
+}
+
+.ice-text{
+    padding: 30px;
+    border: 7px solid #ffce3e;
+}
+
+.ice-text h1{
+    font-size: 70px;
+    color: white;
+    font-weight: 300;
+}
+
+.ice-text p{
+   font-size: 18px;
+}
+
+.ice-text a{
+   
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid white;
+}
+
+.ice-text a:hover{
+    background-color: white;
+    color: black;
+}
+
+.photo-taken-name{
+    padding: 20px 20px 20px 0px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.photo-taken-name a:hover{
+color: rgb(166, 166, 152);
+}
+
+/* winner 2018 part here css */
+.winners-2018{
+    padding: 30px;
+    
+}
+
+.winners-2018 h3{
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 20px;
+    border: 5px solid #ffce3e;
+}
+
+.winners-2018-text{
+    padding: 34px;
+}
+
+.winners-2018-text a{
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-color: #ffce3e;
+    text-underline-offset: 5px;
+}
+
+.winners-2018-text a:hover{
+    color: rgb(166, 166, 152);
+    }
+/* 
+mountainer part here so we begin */
+.mountain-background{
+    background-size: cover;
+    vertical-align: middle;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 600px;
+    background-image: url(https://images01.nicepage.com/32/8a/328afb3199d85943c4bb62cc16640f50.jpeg);
+}
+
+.yellow-background{
+    background-color: #ffce3e;
+    width: 440px;
+    height: 335px;
+}
+
+.mountain-parent{
+    position: relative;
+}
+
+.yellow-background{
+    position: relative;
+    position: absolute;
+    top: -100px;
+    right: 0px;
+}
+
+.inside-yellow-background{
+    padding: 30px;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top:40px;
+}
+
+.inside-yellow-background h3{
+    font-weight: 200;
+    padding: 10px;
+    text-transform: uppercase;
+    
+}
+
+.inside-yellow-background span{
+    text-decoration-line: underline;
+    text-decoration-color: #ffce3e;
+    text-underline-offset: 25px;
+}
+
+.inside-yellow-background a{
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-color: #ffce3e;
+    text-underline-offset: 5px;
+}
+
+
+.inside-yellow-background a:hover{
+    color: rgb(166, 166, 152);
+}
+
+/* sony text and peicture best award here */
+
+.sony-text p{
+    text-decoration-line: underline;
+    text-decoration-color: #ffce3e;
+    text-underline-offset: 5px;
+}
+
+.sony-text h2{
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.pic-sony-divs{
+    width: 32%;
+    height: 342px;
+}
+
+.sony-world-photography-award-anchor a{
+   border: 2px solid #ffce3e;
+   padding: 4px 20px;
+   text-transform: uppercase;
+}
+
+.sony-world-photography-award-anchor a:hover{
+    background-color: #ffce3e;
+    color: rgb(72, 72, 64);
+ }
+
+ /* sunrise css here with some piucs */
+
+.sunrise-pic{
+    position: relative;
+    width: 730px;
+    height: 450px;
+}
+
+.image-border-middle{
+    position: absolute;
+    top: -30px;
+    left: 70px;
+    width: 80%;
+    height: 110%;
+    border: 4px solid #ffce3e;
+}
+
+.sunrise-text{
+    position: absolute;
+    left: -30px;
+    top: 40px;
+    height: 360px;
+    border: 2px solid #ffce3e;
+    position: relative;
+}
+
+.right-border{
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    height: 30px;
+    width: 30px;
+    border-right: 6px solid #ffce3e;
+    border-top: 6px solid #ffce3e;
+}
+
+.left-border{
+    position: absolute;
+    bottom: -25px;
+    left: -25px;
+    height: 30px;
+    width: 30px;
+    border-left: 6px solid #ffce3e;
+    border-bottom: 6px solid #ffce3e;
+}
+
+.sunrise-text h3{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.sunrise-text a{
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-color: #ffce3e;
+    text-underline-offset: 5px;
+}
+
+.sunrise-text a:hover{
+    color: rgb(166, 166, 152);
+ }
+
+ /* here is the samll pictuer who is taking full widht of the screen combine 
+ and they have a below them with a gray background here is there CSS her */
+
+ .images-text-small-gray-background{
+    margin-top: 80px;
+    background-color:rgb(41, 46, 51);
+    display: flex;
+ }
+
+.imagey img{
+    object-fit: cover;
+    object-position: left;
+ }
+
+ .imges-text-container p{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 20px;
+    
+ }
+
+ .imges-text-container a{
+    font-style: italic;
+ } 
+
+ .imges-text-container a:hover{
+    
+    color: rgb(166, 166, 152);
+ }
+
+ /* <!-- now here is the diver which is swimming inside the water --> */
+
+ .diver-container{
+    position: relative;
+ }
+
+ .diver-pic{
+    width: 52%;
+    z-index: 2;
+    
+ }
+
+ .diver-below-background{
+    z-index: 1;
+    background-color: black;
+    position: absolute;
+   top: 35px;
+   right: 90px;
+    border: 5px solid #ffce3e;
+    width: 52%;
+    height: 100%;
+ }
+
+ .right-bottom-flying-border{
+    position: absolute;
+    bottom: -67px;
+    right: 56px;
+    height: 30px;
+    width: 30px;
+    border-bottom: 6px solid #ffce3e;
+    border-right: 6px solid #ffce3e;
+}
+ 
+.diver-text{
+    position: absolute;
+    border: 3px solid #ffce3e;
+    width: 62%;
+    z-index: 0;
+    top: 100px;
+    left: 100px;
+    height: 100%;
+}
+
+
+
+.diver-text-texts-div h3{
+    font-weight: 300;
+}
+
+.diver-text-texts-div a{
+    
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-color: #ffce3e;
+    text-underline-offset: 5px;
+}
+
+.diver-text-texts-div a:hover{
+    color: rgb(166, 166, 152);
+}
+
+.photographer-name{
+    margin-top: 100px;
+}
+
+/* footer ehrhe bla bla */
+
+.footer-background-pic{
+    width: 100%;
+    height: 200px;
+        vertical-align: middle;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),url(https://images01.nicepage.com/be/de/bede34b805e4263477be45b6aa3c7940.jpeg);
+}
+
+.national-log{
+    max-width: 234.429px;
+}
+
+.social-media-logos i{
+    color: #ffce3e;
+    
+}
+
+.line-under-logo{
+    height: 40px;
+    border-bottom: 1px solid white;
+}
+
+/* mdeida query here */
+
+@media (max-width: 1414px) {
+    .yellow-background{
+        top: 50px;
+        right: 100px;
+    }
+        
+}
+
+@media (max-width: 614px){
+   .yellow-background{
+    top: 60px;
+    left: 40px;
+    width: 320px;
+   }
+   .inside-yellow-background{
+    padding: 40px;
+   }
+   .inside-yellow-background h3{
+    font-size: 15px;
+   }
+   .inside-yellow-background p{
+    font-size: 10px;
+   }
+   .inside-yellow-background a{
+    font-size: 10px;
+   }
+   
+}
+
+@media (max-width: 430px){
+    .yellow-background{
+     width: 250px;
+    }
+    .inside-yellow-background{
+     padding: 20px;
+    }
+ }
+
+ @media (max-width: 346px){
+    .yellow-background{
+     width: 200px;
+    }
+    .inside-yellow-background{
+     padding: 7px;
+    }
+ }
+
+@media (max-width: 1406px) {
+    .ice-text h1{
+        font-size: 60px;
+    }
+    .ice-text p{
+        font-size: 15px;
+     }
+     .winners-2018-text h2{
+        font-size: 28px;
+     }
+     .winners-2018-text h5{
+        font-size: 15px;
+     }
+     .winners-2018 h3{
+        font-size: 40px;
+     }
+}
+
+@media (max-width: 1206px){
+    .ice-text h1{
+        font-size: 50px;
+    }
+    .ice-text p{
+        font-size: 13px;
+     }
+     .ice-text{
+        margin-top: 30px;
+     }
+}
+
+@media (max-width: 1000px) {
+    .winners-2018-text h2{
+        font-size: 22px;
+     }
+     .winners-2018-text h5{
+        font-size: 10px;
+     }
+     .winners-2018 h3{
+        font-size: 30px;
+     }
+}
+
+@media (max-width: 490px) {
+    .winner-container{
+        flex-direction: column-reverse;
+    }
+    .winners-2018{
+        padding: 80px;
+    }
+    .winners-2018 h3{
+        font-size: 20px;
+     }
+     .ice-text h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 400px){
+    .winners-2018{
+        padding: 60px;
+    }
+    .ice-text a{
+        padding: 3px 10px;
+        font-size: 10px;
+    }
+}
+
+/* media wueyre for the sony wards text and pics section here */
+
+@media (max-width: 759px) {
+    .pic-sony-divs{
+        width: 100%;
+    }
+    .pic-sony-divs img{
+        
+        object-fit: cover;
+        object-position: left;
+    }
+}
+
+/* sunrize postion query here so frustrated */
+
+@media (max-width: 1403px) {
+    .sunrise-text-real-div{
+        font-size: 10px;
+    }
+    .sunrise-pic{
+        width: 50%;
+    }
+    .image-border-middle{
+        width: 70%;
+        height: 90%;
+    }
+}
+
+@media (max-width: 1201px) {
+    .image-border-middle{
+        height: 330px;
+    }
+    .sunrise-pic{
+        height: 200px;
+    }
+    .sunrise-text{
+        height: 250px;
+    }
+}
+
+@media (max-width: 992px) {
+    .image-border-middle{
+        height: 260px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .sunrise-pic{
+        width: 90%;
+    }
+    .image-border-middle{
+        left: -200px;
+        top: -80px;
+        height: 200px;
+    }
+    
+}
+
+@media (max-width: 457px) {
+    .image-border-middle{
+        height: 15  0px;
+    }
+    .sunrise-text{
+        width: 200px;
+        height: 200px;
+    }
+    .sunrise-text h3{
+        font-size: 20px;
+    }
+    .sunrise-text p{
+        font-size: 15px;
+    }
+    .sunrise-text a{
+        font-size: 10px;
+    }
+}
+
+
+
+ /* here is the samll pictuer who is taking full widht of the screen combine 
+ and they have a below them with a gray background here is there CSS her */
+ /* qeruey herh for above */
+
+ 
+@media (max-width: 971px) {
+    .images-text-small-gray-background{
+        flex-wrap: wrap;
+     }
+     .imges-text-container{
+        width: 50%;
+     }
+}
+
+
+@media (max-width: 768px){
+    .imges-text-container{
+        width: 100%;
+    }
+    .imges-text-container img{
+        object-fit: cover;
+        object-position: left;
+     }
+}
+
+/* diver media query here */
+
+@media (max-width: 1400px){
+    .diver-text-texts-div{
+        font-size: 13px;
+    }
+    .diver-text-texts-div h3{
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .photographer-name{
+        margin-top: 300px;
+    }
+    .diver-text{
+        top: 300px;
+    }
+    .diver-text-texts-div{
+        font-size: 16px;
+    }
+    .diver-text-texts-div h3{
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 992px){
+    .diver-text{
+           width: 70%;
+           height: 140%;
+    }
+    .photographer-name{
+        margin-top: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .diver-text{
+        left: 0px;
+        width: 90%;
+        height: 105%;
+ }
+    .diver-pic{
+        width: 100%;
+    }
+    .diver-below-background{
+        width: 100%;
+        top: -30px;
+    }
+    .right-bottom-flying-border{
+        bottom: 42px;
+        right: -35px;
+
+    }
+    .photographer-name{
+        margin-top: 330px;
+    }
+}
+
+@media (max-width: 533px) {
+    .diver-below-background{
+        width: 100%;
+        top: -30px;
+        left: -335px;
+    }
+    .right-bottom-flying-border{
+        bottom: -33px;
+        right: -35px;
+
+    }
+    .diver-text-texts-div{
+        font-size: 12px;
+    }
+    .diver-text-texts-div h3{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 433px) {
+    .diver-below-background{
+       display: none;
+    }
+    .right-bottom-flying-border{
+        display: none;
+    }
+    .diver-text{
+         height: 150%;
+         overflow: hidden;
+    }
+    .photographer-name{
+        margin-top: 430px;
+    }
+}
+
+
