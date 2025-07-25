@@ -10,6 +10,21 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
 	<link rel="stylesheet" href="assets/css/meyawo.css">
+    <style>
+        .portfolio-card {
+  display: block;
+  margin-bottom: 30px; /* Adds gap between rows */
+}
+
+.portfolio-card-img {
+  width: 100%;
+  height: 220px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensures image fits well */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
@@ -77,49 +92,89 @@
    
 
 
-    <!-- portfolio section -->
-    <section class="section" id="portfolio">
-        <div class="container text-center">
-            <p class="section-subtitle">What I Did ?</p>
-            <h6 class="section-title mb-6">Portfolio</h6>
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="https://bilal-akmal-2004.github.io/Firestore_Auth_With_Posting_System/signIn/signIn.html" class="portfolio-card">
-                        <img src="assets/imgs/firestore.png" class="portfolio-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">    
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Firestore Authentication</h4>
-                                <p class="font-weight-normal">With posting system.</p>
-                            </span>                         
-                        </span>                     
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://bilal-akmal-2004.github.io/Quizz-App/" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/quizApp.png" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Quiz App</h4>
-                                <p class="font-weight-normal">Responsive quiz app that store scores in local storage.</p>
-                            </span>                         
-                        </span>                         
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="./National Jeographic/index.html" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/national.png" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">    
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>National Geographic</h4>
-                                <p class="font-weight-normal">Clone of national geographic website, fully responsive.</p>
-                            </span>                         
-                        </span>                     
-                    </a>
-                </div>
-            </div><!-- end of row -->
-        </div><!-- end of container -->
-    </section> <!-- end of portfolio section -->
+  <!-- portfolio section -->
+<section class="section" id="portfolio">
+  <div class="container text-center">
+    <p class="section-subtitle">What I Did ?</p>
+    <h6 class="section-title mb-6">Portfolio</h6>
+    <!-- row -->
+    <div class="row">
+      <!-- Chat App -->
+      <div class="col-md-4">
+        <a href="https://chat-app-liart-tau.vercel.app/login" class="portfolio-card">
+          <img src="assets/imgs/chatapp.png" class="portfolio-card-img" alt="Chat App Screenshot">
+          <span class="portfolio-card-overlay">
+            <span class="portfolio-card-caption">
+              <h4>Chat App</h4>
+              <p class="font-weight-normal">MERN stack chat app with auth & toast notifications.</p>
+            </span>
+          </span>
+        </a>
+      </div>
+      <!-- To-Do List -->
+      <div class="col-md-4">
+        <a href="https://bilal-akmal-2004.github.io/To-Do-List/" class="portfolio-card">
+          <img src="assets/imgs/todo.png" class="portfolio-card-img" alt="To-Do List Screenshot">
+          <span class="portfolio-card-overlay">
+            <span class="portfolio-card-caption">
+              <h4>To-Do List</h4>
+              <p class="font-weight-normal">Simple and clean task manager.</p>
+            </span>
+          </span>
+        </a>
+      </div>
+      <!-- Random Quote Generator -->
+      <div class="col-md-4">
+        <a href="https://bilal-akmal-2004.github.io/Random-Quote-Generator/" class="portfolio-card">
+          <img src="assets/imgs/quote.png" class="portfolio-card-img" alt="Quote Generator Screenshot">
+          <span class="portfolio-card-overlay">
+            <span class="portfolio-card-caption">
+              <h4>Quote Generator</h4>
+              <p class="font-weight-normal">Random inspirational quotes powered by API.</p>
+            </span>
+          </span>
+        </a>
+      </div>
+      <!-- Firestore Auth -->
+      <div class="col-md-4">
+        <a href="https://bilal-akmal-2004.github.io/Firestore_Auth_With_Posting_System/signIn/signIn.html" class="portfolio-card">
+          <img src="assets/imgs/firestore.png" class="portfolio-card-img" alt="Firestore Authentication">
+          <span class="portfolio-card-overlay">
+            <span class="portfolio-card-caption">
+              <h4>Firestore Authentication</h4>
+              <p class="font-weight-normal">With posting system.</p>
+            </span>
+          </span>
+        </a>
+      </div>
+      <!-- Quiz App -->
+      <div class="col-md-4">
+        <a href="https://bilal-akmal-2004.github.io/Quizz-App/" class="portfolio-card">
+          <img src="assets/imgs/quizApp.png" class="portfolio-card-img" alt="Quiz App">
+          <span class="portfolio-card-overlay">
+            <span class="portfolio-card-caption">
+              <h4>Quiz App</h4>
+              <p class="font-weight-normal">Responsive quiz app that stores scores in local storage.</p>
+            </span>
+          </span>
+        </a>
+      </div>
+      <!-- National Geographic -->
+      <div class="col-md-4">
+        <a href="./National Jeographic/index.html" class="portfolio-card">
+          <img src="assets/imgs/national.png" class="portfolio-card-img" alt="National Geographic Clone">
+          <span class="portfolio-card-overlay">
+            <span class="portfolio-card-caption">
+              <h4>National Geographic</h4>
+              <p class="font-weight-normal">Clone of National Geographic website, fully responsive.</p>
+            </span>
+          </span>
+        </a>
+      </div>
+    </div><!-- end of row -->
+  </div><!-- end of container -->
+</section> <!-- end of portfolio section -->
+
 
   
    
